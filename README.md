@@ -11,7 +11,8 @@ $skills = [
   'Javascript',
 ];
 
-echo "Hi. I'm NAME, a " . array_rand($skills) . " developer, nice to meet you 👋";
+echo "Hi. I'm ". NAME .", a " . $skills[array_rand($skills)] . " developer, nice to meet you 👋";
+
 
 ```
 
