@@ -1,22 +1,20 @@
 ```php
 <?php
 
-define("NAME", "Muhamad Iqbal");
+const NAME = 'Muhamad Iqbal';
 
 $skills = [
-  'PHP',
-  'Laravel',
-  'Bootstrap',
-  'TailwindCss',
-  'Javascript',
+    'PHP',
+    'Laravel',
+    'Tailwind CSS',
+    'JavaScript',
+    'MySQL',
 ];
 
-echo "Hi. I'm ". NAME .", a " . $skills[array_rand($skills)] . " developer, nice to meet you 👋";
+function introduction(string $name, array $skills): string
+{
+    $skill = $skills[array_rand($skills)];
+    return "Hi, I'm {$name}, a {$skill} developer. Nice to meet you 👋";
+}
 
-
-```
-
-<!---
-muhd-iqbal/muhd-iqbal is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+echo introduction(NAME, $skills);
