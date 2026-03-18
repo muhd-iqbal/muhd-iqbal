@@ -42,6 +42,6 @@ Senior Software Developer focused on backend systems, SaaS platforms, and infras
 
 ## 📫 Contact
 
-* Email: [work@iqbal.my](mailto:work@iqbal.my)
-* GitHub: https://github.com/YOUR_USERNAME
-* LinkedIn: https://linkedin.com/in/YOUR_PROFILE
+* Email: [me@iqbal.my](mailto:me@iqbal.my)
+* GitHub: https://github.com/muhd-iqbal
+* LinkedIn: https://linkedin.com/in/muhamad-iqbal
